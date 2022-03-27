@@ -17,10 +17,10 @@ const NavBar = () => {
     <div className={`nav ${show && "nav_black"}`}>
       <img
         className="nav_logo"
-        src="https://upload.wikimedia.org/wikipedia/commons/0/0f/"
+        src="https://1000logos.net/wp-content/uploads/2017/05/Netflix-Logo.png"
         alt="Netflix Logo"
       />
-      <img className="nav_avatar" src="" alt="Netflix Avatar" />
+      {/* <img className="nav_avatar" src="" alt="Netflix Avatar" /> */}
     </div>
   );
 };
